@@ -2,7 +2,7 @@
     background: #E5E5E5;
     font-family: 'Inter';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 400px;
     font-size: 32px;
     line-height: 150%;
 }
@@ -76,4 +76,13 @@ main{
     margin-top: 402px;
     position: absolute;
     width: 336px;
+}
+.secciones{
+    width: 50%;
+}
+@media screen and (max-width:480px){
+    .msj2textarea, .msj1textarea{
+        height: auto;
+        width: auto;
+    }
 }
